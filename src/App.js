@@ -1,90 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-<!DOCTYPE html>
-<html>
-</head>
-
-    <title>Beautiful Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        nav ul {
-            padding: 0;
-            list-style-type: none;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        section {
-            margin: 2em 5%;
-            padding: 1em;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 1em 0;
-            background-color: #333;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to CI/CD World!!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is the home section of the webpage.</p>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>Learn more about us in this section.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Get in touch with us here.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Beautiful Webpage</p>
-    </footer>
-</body>
-</html>
-
-
+function App()
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+        Hare Krishna Hare Krishna Krishna Krishna Hare Hare Hare Ram Hare Ram Ram Ram Hare Hare   
+       </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
 
 export default App;
